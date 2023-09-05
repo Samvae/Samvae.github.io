@@ -1,5 +1,87 @@
-git status
-git status
-git add style.css
-git commit -m Added css to webpage
-git push
+/* style.css */
+
+/* Set the background color for the entire page */
+body {
+    background-color: #1c1414fc; 
+    color: #3a2e2e; 
+    font-family: Helvetica; 
+}
+
+.top-header {
+    color: #fff; 
+    background-color: #0a01016f;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Style the navigation menu */
+.header-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Style the navigation links */
+.header-nav a {
+    text-decoration: none;
+    color: #fff; 
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: 2px solid #fff; 
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.header-nav a:hover {
+    background-color: #fff; /* White background color on hover */
+    color: #00070e; /* Blue text color on hover */
+}
+
+/* Style the main content layout */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+.header-left {
+    flex: 1;
+    padding: 20px;
+    color: #fff; 
+    border-radius: 10px;
+    align-items: center;
+
+}
+
+.header-left h1 {
+    font-size: 40px;
+    align-items: center;
+}
+
+
+/* Style the image on the right side */
+.image-right {
+    flex: 1;
+    text-align: right;
+}
+
+.image-right img {
+    padding: 10px;
+    max-width: 70%;
+    height: auto;
+}
+
+.rounded-image {
+    border-radius: 50%; 
+    max-width: 50%;
+    height: auto;
+    margin: 20px;
+}
+
