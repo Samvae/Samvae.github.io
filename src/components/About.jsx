@@ -1,27 +1,32 @@
 import React from 'react';
+import SELF from '../assets/self2.png';
 
 const About = () => {
   return (
-    <div name='about' className='w-full h-screen bg-[#E1E8ED] text-black-300'>
-      <div className='flex flex-col justify-center items-center w-full h-full'>
-        <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
-          <div className='sm:text-right pb-8 pl-4'>
-            <p className='text-4xl font-bold inline border-b-4 border-green-600'>
-              About
-            </p>
-          </div>
-          <div></div>
-          </div>
-          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-            <div className='sm:text-right text-4xl font-bold'>
-              <p>Hello. I'm Sam Villahermosa. Please feel free to look around.</p>
+    <div name="about" className="w-full h-screen bg-[#E4E4DE]">
+      <div className="max-w-[1250px] mx-auto px-8 flex justify-center gap-8 h-full">
+      {/* Left Column */}
+        <div className="flex justify-center items-center max-w-[500px]">
+          <img src={SELF} alt="Sam Villahermosa" className="w-98 shadow-md shadow-[#595f39]" />
             </div>
-            <div>
-              <p> I'm a junior at Berea College, deeply immersed in the world of Computer Science. 
-                My passion lies in software development, and I'm always on the lookout for fresh learning opportunities to further refine my skills. 
-                With an eye on the future, I aspire to make a meaningful mark on the tech industry, striving to enhance the lives of many through innovative solutions.</p>  
-            </div>
-          </div>
+      {/* Right Column */}
+        <div className="flex flex-col max-w-[750px] justify-center">
+            <h1 className="text-4xl font-bold inline border-b-4 border-[#B58D48] text-black">
+            About Me
+            </h1>
+            <p className="text-black py-4">
+            I'm a junior Computer Science student at Berea College, driven by a 
+            passion for technology and the potential it holds to enhance lives. 
+            I currently work at the Berea College IT department, 
+            where I've gained valuable insights and experience in the field. Now, 
+            I'm enthusiastic about the opportunity to apply my skills and knowledge 
+            in real-world scenarios. As I approach Summer 2024, I'm actively searching 
+            for a Software Engineering internship, aligning my educational experience with 
+            practical application. I'm eager to delve deeper into this passion by building 
+            impactful projects and contributing to innovative employment opportunities, as 
+            I'm dedicated to making the transition from my current role to a full-fledged software developer.
+            </p> 
+        </div>
       </div>
     </div>
   );
