@@ -75,7 +75,7 @@ const Home = () => {
           </p>
           <div>
             <Link to="about" smooth={true} duration={500}>
-              <button className="text-black px-6 py-3 my-2 flex items-center bg-[#B58D48] shadow-md shadow-[#040c16] hover:scale-110 duration-500 ">
+              <button className="text-white group px-6 py-3 my-2 flex items-center bg-[#B58D48] shadow-md shadow-[#040c16] hover:scale-110">
                 <MovingComponent
                   type="jelly"
                   duration="1100ms"
@@ -85,9 +85,11 @@ const Home = () => {
                   iteration="1"
                   fillMode="none"
                 >
-                  Look around!  
+                  Look around!
                 </MovingComponent>
-
+                <span className="group-hover:rotate-90 duration-300">
+                  <HiArrowNarrowRight className="ml-3 " />
+                </span>
               </button>
             </Link>
           </div>

@@ -1,68 +1,124 @@
 import React from 'react';
-import { data } from "../data/data.js";
+import Project from '../assets/projects/project.png';
 
-
-const Experiences = () => {
-
-    // projects file
-    const project = data;
-    //setProject(data);
-  
+const Projects = () => {
   return (
-    <div name='projects' className='w-full md:h-screen text-black-300 bg-[#E4E4DE]'>
-      <div className='max-w-[1250px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-        <div className='pb-8'>
-          <p className='text-4xl font-bold inline border-b-4 text-black-300 border-green-600'>
+    <div name="projects" className="w-full md:h-screen text-white-300 bg-[#E4E4DE]">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+        <div className="pb-8">
+          <p className="text-4xl font-bold inline border-b-4 text-white-300 border-[#B58D48]">
             Projects
           </p>
-          <p className='py-6'>// Here are some of my projects</p>
+          <p className="py-6">// Check out some of my recent work</p>
         </div>
-
-{/* container for projects */}
-<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div
+            style={{ backgroundImage: `url(${Project})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-black tracking-wider">
+              CSC 426 Blog
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://samsopensource.blogspot.com/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-white-700 font-bold text-lg">
+                    Blog
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
           
-          {/* Gird Item */}
-          {project.map((item, index) => (
-  <div
-    key={index}
-    style={{ backgroundImage: `url(${item.image})` }}
-    className="shadow-lg shadow-[#040c16] group container rounded-md 
-              flex justify-center text-center items-center mx-auto content-div "
-  >
-    {/* Hover effect for images */}
-    <div className="opacity-0 group-hover:opacity-100 ">
-      <span className="text-2xl font bold text-white tracking-wider ">
-        {item.name}
-      </span>
-      <div className="pt-8 text-center ">
-        {/* eslint-disable-next-line */}
-        <a href={item.github} target="_blank">
-          <button
-            className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-black-700 font-bold text-lg"
+          <div
+            style={{ backgroundImage: `url(${Project})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            Code
-          </button>
-        </a>
-        {/* eslint-disable-next-line */}
-        <a href={item.live} target="_blank">
-          <button
-            className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-black-700 font-bold text-lg"
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-black tracking-wider">
+                Project
+              </span>
+              <div className="pt-8 text-center">
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-white-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${Project})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            Live
-          </button>
-        </a>
-      </div>
-    </div>
-  </div>
-))}
-
-
-</div>
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-black tracking-wider">
+                Project 3
+              </span>
+              <div className="pt-8 text-center">
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-white-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${Project})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-black tracking-wider">
+                Project 4
+              </span>
+              <div className="pt-8 text-center">
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-white-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${Project})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-black tracking-wider">
+                Project 5
+              </span>
+              <div className="pt-8 text-center">
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-white-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${Project})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-black tracking-wider">
+                This Website!
+              </span>
+              <div className="pt-8 text-center">
+                <a href="/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-white-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
 };
 
-export default Experiences;
+export default Projects;
