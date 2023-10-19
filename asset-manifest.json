@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.468eeabe.css",
-    "main.js": "/static/js/main.7deeda4c.js",
+    "main.css": "/static/css/main.0732c616.css",
+    "main.js": "/static/js/main.cbc6ffe3.js",
     "static/media/self2.png": "/static/media/self2.18f960c27d3f1b89647b.png",
     "static/media/self1.png": "/static/media/self1.7efd369759c846976d0e.png",
-    "static/media/realestate.jpg": "/static/media/realestate.44fd19f4c6872731149c.jpg",
+    "static/media/project.png": "/static/media/project.634d6fb97b6d5635e08b.png",
     "static/media/python.png": "/static/media/python.d8b377f05522bf35de36.png",
-    "static/media/workImg.jpeg": "/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
+    "static/media/resume.pdf": "/static/media/resume.002c325f7ef3d9f4d7cd.pdf",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
     "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
@@ -15,11 +15,11 @@
     "static/media/firebase.png": "/static/media/firebase.209703cedf1b1a96bc52.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.468eeabe.css.map": "/static/css/main.468eeabe.css.map",
-    "main.7deeda4c.js.map": "/static/js/main.7deeda4c.js.map"
+    "main.0732c616.css.map": "/static/css/main.0732c616.css.map",
+    "main.cbc6ffe3.js.map": "/static/js/main.cbc6ffe3.js.map"
   },
   "entrypoints": [
-    "static/css/main.468eeabe.css",
-    "static/js/main.7deeda4c.js"
+    "static/css/main.0732c616.css",
+    "static/js/main.cbc6ffe3.js"
   ]
 }
