@@ -4,8 +4,6 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaLinkedinIn,
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
@@ -18,39 +16,62 @@ const Navbar = () => {
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#E4E4DE] text-black-300'>
-      <div>
-        <img src={Logo} alt='Logo Image' style={{ width: '160px' }} />
-      </div>
+        {/* Logo */}
+        <div className='hover:scale-110 duration-500'>
+          <Link to="home" smooth={true} duration={400}>
+            <img src={Logo} alt="Logo Image" style={{ width: "175px" }} />
+          </Link>
+        </div>
 
       {/* menu */}
-      <ul className='hidden md:flex'>
+      <ul className="hidden md:flex">
         <li>
-          <Link to='home' smooth={true} duration={500}>
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link to='about' smooth={true} duration={500}>
+          <Link
+            to="about"
+            smooth={true}
+            duration={400}
+            className="hover:text-[#B58D48]"
+          >
             About
           </Link>
         </li>
         <li>
-          <Link to='skills' smooth={true} duration={500}>
-            Skills
+          <Link
+            to="experiences"
+            smooth={true}
+            duration={400}
+            className="hover:text-[#B58D48]"
+          >
+            Experience
           </Link>
         </li>
         <li>
-          <Link to='experiences' smooth={true} duration={500}>
-            Experiences
-          </Link>
-        </li>
-        <li>
-          <Link to='projects' smooth={true} duration={500}>
+          <Link
+            to="projects"
+            smooth={true}
+            duration={400}
+            className="hover:text-[#B58D48]"
+          >
             Projects
           </Link>
         </li>
         <li>
-          <Link to='contact' smooth={true} duration={500}>
+          <Link
+            to="skills"
+            smooth={true}
+            duration={400}
+            className="hover:text-[#B58D48]"
+          >
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="contact"
+            smooth={true}
+            duration={400}
+            className="hover:text-[#B58D48]"
+          >
             Contact
           </Link>
         </li>
@@ -96,12 +117,6 @@ const Navbar = () => {
           {' '}
           <Link onClick={handleClick} to='projects' smooth={true} duration={500}>
             Projects
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Work
           </Link>
         </li>
         <li className='py-6 text-4xl'>
