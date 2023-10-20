@@ -1,14 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.0732c616.css",
-    "main.js": "/static/js/main.cbc6ffe3.js",
+    "main.js": "/static/js/main.a5ea6282.js",
     "static/media/self2.png": "/static/media/self2.18f960c27d3f1b89647b.png",
     "static/media/self1.png": "/static/media/self1.7efd369759c846976d0e.png",
     "static/media/project.png": "/static/media/project.634d6fb97b6d5635e08b.png",
     "static/media/python.png": "/static/media/python.d8b377f05522bf35de36.png",
+    "static/media/uzbek.png": "/static/media/uzbek.b4d00ecc052d2364d4e3.png",
     "static/media/resume.pdf": "/static/media/resume.002c325f7ef3d9f4d7cd.pdf",
+    "static/media/chess.png": "/static/media/chess.4241b6ec9df1ab713be1.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/clock.png": "/static/media/clock.4c8b04a47b7a1c57caec.png",
     "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/logo.png": "/static/media/logo.dc204f5387cc29a88117.png",
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
@@ -16,10 +19,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.0732c616.css.map": "/static/css/main.0732c616.css.map",
-    "main.cbc6ffe3.js.map": "/static/js/main.cbc6ffe3.js.map"
+    "main.a5ea6282.js.map": "/static/js/main.a5ea6282.js.map"
   },
   "entrypoints": [
     "static/css/main.0732c616.css",
-    "static/js/main.cbc6ffe3.js"
+    "static/js/main.a5ea6282.js"
   ]
 }
