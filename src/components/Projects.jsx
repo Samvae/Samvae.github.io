@@ -3,6 +3,7 @@ import Project from '../assets/projects/project.png';
 import Clock from '../assets/projects/clock.png';
 import Uzbek from '../assets/projects/uzbek.png';
 import Chess from '../assets/projects/chess.png';
+import Site from '../assets/projects/site.png';
 
 
 const Projects = () => {
@@ -43,7 +44,7 @@ const Projects = () => {
                 Chess Game
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://github.com/Samvae/Chess.git">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-white-700 font-bold text-lg">
                     Code
                   </button>
@@ -91,10 +92,10 @@ const Projects = () => {
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-black tracking-wider">
-                Project 5
+                Python Snake Game
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://github.com/Samvae/Python-Snake-Game.git">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-white-700 font-bold text-lg">
                     Code
                   </button>
@@ -103,7 +104,7 @@ const Projects = () => {
             </div>
           </div>
           <div
-            //style={{ backgroundImage: `url(${})` }}
+            style={{ backgroundImage: `url(${Site})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
