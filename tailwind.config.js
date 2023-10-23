@@ -3,8 +3,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundColor: {
-        'gold': '#B58D48',
-        'white': '#FFFFFF',
+        'white': '#ffffff',
         'black': '#000000',
       }
     },

@@ -7,19 +7,20 @@ import {
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../assets/logo.png';
+import Logo from '../assets/logo1.png';
 import { Link } from 'react-scroll';
+import resume from '../assets/resume/resume.pdf';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#E4E4DE] text-black-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0F4C81] text-white'>
         {/* Logo */}
         <div className='hover:scale-110 duration-500'>
           <Link to="home" smooth={true} duration={400}>
-            <img src={Logo} alt="Logo Image" style={{ width: "175px" }} />
+            <img src={Logo} alt="Logo Image" style={{ width: "150px" }} />
           </Link>
         </div>
 
@@ -30,9 +31,19 @@ const Navbar = () => {
             to="about"
             smooth={true}
             duration={400}
-            className="hover:text-[#B58D48]"
+            className="hover:text-[#073965]"
           >
             About
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="skills"
+            smooth={true}
+            duration={400}
+            className="hover:text-[#073965]"
+          >
+            Skills
           </Link>
         </li>
         <li>
@@ -40,7 +51,7 @@ const Navbar = () => {
             to="experiences"
             smooth={true}
             duration={400}
-            className="hover:text-[#B58D48]"
+            className="hover:text-[#073965]"
           >
             Experience
           </Link>
@@ -50,19 +61,9 @@ const Navbar = () => {
             to="projects"
             smooth={true}
             duration={400}
-            className="hover:text-[#B58D48]"
+            className="hover:text-[#073965]"
           >
-            Projects
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="skills"
-            smooth={true}
-            duration={400}
-            className="hover:text-[#B58D48]"
-          >
-            Skills
+          Projects
           </Link>
         </li>
         <li>
@@ -70,7 +71,7 @@ const Navbar = () => {
             to="contact"
             smooth={true}
             duration={400}
-            className="hover:text-[#B58D48]"
+            className="hover:text-[#073965]"
           >
             Contact
           </Link>
@@ -87,7 +88,7 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-[#E4E4DE] flex flex-col justify-center items-center'
+            : 'absolute top-0 left-0 w-full h-screen bg-[#ffffff] flex flex-col justify-center items-center'
         }
       >
         <li className='py-6 text-4xl'>
@@ -134,6 +135,8 @@ const Navbar = () => {
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='https://www.linkedin.com/in/samvillahermosa/'
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -142,6 +145,8 @@ const Navbar = () => {
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='https://github.com/Samvae'
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Github <FaGithub size={30} />
             </a>
@@ -149,7 +154,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='mailto:smitchelvi@gmail.com'
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -157,7 +162,9 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href={resume}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
