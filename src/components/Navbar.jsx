@@ -7,7 +7,7 @@ import {
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../assets/logo1.png';
+import Logo from '../assets/self/logo1.png';
 import { Link } from 'react-scroll';
 import resume from '../assets/resume/resume.pdf';
 
@@ -16,7 +16,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0F4C81] text-white'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#074276] text-[#93E7FB]'>
         {/* Logo */}
         <div className='hover:scale-110 duration-500'>
           <Link to="home" smooth={true} duration={400}>
@@ -31,7 +31,7 @@ const Navbar = () => {
             to="about"
             smooth={true}
             duration={400}
-            className="hover:text-[#073965]"
+            className="hover:text-[#C0F6FB]"
           >
             About
           </Link>
@@ -41,7 +41,7 @@ const Navbar = () => {
             to="skills"
             smooth={true}
             duration={400}
-            className="hover:text-[#073965]"
+            className="hover:text-[#C0F6FB]"
           >
             Skills
           </Link>
@@ -51,7 +51,7 @@ const Navbar = () => {
             to="experiences"
             smooth={true}
             duration={400}
-            className="hover:text-[#073965]"
+            className="hover:text-[#C0F6FB]"
           >
             Experience
           </Link>
@@ -61,7 +61,7 @@ const Navbar = () => {
             to="projects"
             smooth={true}
             duration={400}
-            className="hover:text-[#073965]"
+            className="hover:text-[#C0F6FB]"
           >
           Projects
           </Link>
@@ -71,7 +71,7 @@ const Navbar = () => {
             to="contact"
             smooth={true}
             duration={400}
-            className="hover:text-[#073965]"
+            className="hover:text-[#C0F6FB]"
           >
             Contact
           </Link>
@@ -79,7 +79,7 @@ const Navbar = () => {
       </ul>
 
       {/* Hamburger */}
-      <div onClick={handleClick} className='md:hidden z-10'>
+      <div onClick={handleClick} className='md:hidden z-10 '>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import SELF from '../assets/self1.png';
+import SELF from '../assets/self/self1.png';
 import Typewriter from "typewriter-effect";
 import MovingComponent from "react-moving-text";
 import { Link } from 'react-scroll';
@@ -37,7 +37,7 @@ const Home = () => {
               I am
             </MovingComponent>
           </h1>
-          <h2 className="text-base sm:text-6xl font-bold text-[#073965] h-30">
+          <h2 className="text-base sm:text-6xl font-bold text-[#074276]">
             <MovingComponent
               type="jelly"
               duration="1100ms"
@@ -75,7 +75,7 @@ const Home = () => {
           </p>
           <div>
             <Link to="about" smooth={true} duration={500}>
-              <button className="text-xs sm:text-base text-white group px-6 py-3 my-2 flex items-center bg-[#073965] shadow-md shadow-[#040c16] hover:scale-110">
+              <button className="text-xs sm:text-base text-white group px-6 py-3 my-2 flex items-center bg-[#074276] shadow-md shadow-[#040c16] hover:scale-110">
                 <MovingComponent
                   type="jelly"
                   duration="1100ms"
@@ -95,7 +95,7 @@ const Home = () => {
           </div>
         </div>
         {/* Right Column */}
-        <div className="flex justify-center items-center max-w-[500px]">
+        <div className="flex justify-center items-center max-w-[500px] h-full">
         <MovingComponent
                   type="slideInFromRight"
                   duration="1100ms"
@@ -105,7 +105,7 @@ const Home = () => {
                   iteration="1"
                   fillMode="none"
                 >
-                  <img src={SELF} alt="Sam Villahermosa" className="w-98 rounded-full shadow-md shadow-[#073965]" />
+                  <img src={SELF} alt="Sam Villahermosa" className="w-98 rounded-full shadow-md shadow-[#074276]" />
                 </MovingComponent>
           
       </div>
