@@ -10,6 +10,8 @@ import Cplus from '../assets/C++.png';
 import Python from '../assets/python.png';
 import Git from '../assets/git.png';
 import Java from '../assets/java.png';
+import Nodejs from '../assets/nodejs.png';
+import Docker from '../assets/docker.png';
 
 const Skills = () => {
   return (
@@ -21,46 +23,53 @@ const Skills = () => {
               <p className='py-4'>// These are the technologies I've worked with</p>
           </div>
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-             <div className='shadow-md shadow-[#040c16] hover:scale-110 hover:bg-[#B58D48] duration-500'>
+             <div className='hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={Python} alt="Python icon" />
                 <p className='my-4'>PYTHON</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 hover:bg-[#B58D48] duration-500'>
+              <div className='hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={Cplus} alt="C++ icon" />
                 <p className='my-4'>C++</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 hover:bg-[#B58D48] duration-500'>
+              <div className='hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={Java} alt="Java icon" />
                 <p className='my-4'>JAVA</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 hover:bg-[#B58D48] duration-500'>
+              <div className='hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={GitHub} alt="Github icon" />
                   <p className='my-4'>GITHUB</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 hover:bg-[#B58D48] duration-500'>
+              <div className='hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Git} alt="Git icon" />
                   <p className='my-4'>GIT</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 hover:bg-[#B58D48] duration-500'>
+              <div className='hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
                   <p className='my-4'>HTML</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 hover:bg-[#B58D48] duration-500'>
+              <div className='hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={CSS} alt="CSS icon" />
                   <p className='my-4'>CSS</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 hover:bg-[#B58D48] duration-500'>
+              <div className='hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={JavaScript} alt="JavaScript icon" />
                   <p className='my-4'>JAVASCRIPT</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 hover:bg-[#B58D48] duration-500'>
+              <div className='hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={ReactImg} alt="React icon" />
                   <p className='my-4'>REACT</p>
               </div>
-
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 hover:bg-[#B58D48] duration-500'>
+              <div className='hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={FireBase} alt="FireBase icon" />
                   <p className='my-4'>FIREBASE</p>
+              </div>
+              <div className='hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Nodejs} alt="Nodejs icon" />
+                  <p className='my-4'>NODE JS</p>
+              </div>
+              <div className='hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Docker} alt="Docker icon" />
+                  <p className='my-4'>DOCKER</p>
               </div>
           </div>
       </div>

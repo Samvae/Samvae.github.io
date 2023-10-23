@@ -1,9 +1,10 @@
 import React from 'react';
-import Project from '../assets/projects/project.png';
+import Task from '../assets/projects/task.png';
 import Clock from '../assets/projects/clock.png';
 import Uzbek from '../assets/projects/uzbek.png';
 import Chess from '../assets/projects/chess.png';
 import Site from '../assets/projects/site.png';
+import Snake from '../assets/projects/python.png';
 
 
 const Projects = () => {
@@ -18,17 +19,17 @@ const Projects = () => {
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
         <div
-            style={{ backgroundImage: `url(${Project})` }}
+            style={{ backgroundImage: `url(${Task})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-black tracking-wider">
-              CSC 426 Blog
+              Notes and Tasks
               </span>
               <div className="pt-8 text-center">
-                <a href="https://samsopensource.blogspot.com/">
+                <a href="https://github.com/Samvae/Notes-and-Tasks.git">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-white-700 font-bold text-lg">
-                    Blog
+                    Code
                   </button>
                 </a>
               </div>
@@ -75,7 +76,7 @@ const Projects = () => {
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-black tracking-wider">
-                Uzbek Programming Language
+                Uzbek Programming 
               </span>
               <div className="pt-8 text-center">
                 <a href="https://github.com/Samvae/Uzbek-Programming-Language.git">
@@ -87,7 +88,7 @@ const Projects = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${Project})` }}
+            style={{ backgroundImage: `url(${Snake})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">

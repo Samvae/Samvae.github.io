@@ -14,7 +14,7 @@ const Experiences = () => {
         {/* container for projects */}
         <div className='w-full flex flex-col justify-center gap-8 text-left'>
           {/* IT Technician */}
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 hover:bg-[#B58D48] duration-500'>
+          <div className='hover:scale-110 hover:bg-[#B58D48] duration-500'>
             <h1 className='text-lg font-bold text-[#B58D48 py-2 px-4'>
               January 2023 - Present
             </h1>
@@ -28,7 +28,7 @@ const Experiences = () => {
             </p>
           </div>
           {/*Woodshop Worker*/}
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 hover:bg-[#B58D48] duration-500'>
+          <div className='hover:scale-110 hover:bg-[#B58D48] duration-500'>
             <h1 className='text-lg font-bold text-[#B58D48 py-2 px-4'>
               August 2022 - December 2022
             </h1>
@@ -41,7 +41,7 @@ const Experiences = () => {
             </p>
           </div>
           {/* Complex Assistant */}
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 hover:bg-[#B58D48] duration-500'>
+          <div className='hover:scale-110 hover:bg-[#B58D48] duration-500'>
             <h1 className='text-lg font-bold text-[#B58D48 py-2 px-4'>
               August 2021 - May 2022
             </h1>
