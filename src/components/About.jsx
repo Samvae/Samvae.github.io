@@ -3,18 +3,18 @@ import SELF from '../assets/self2.png';
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-[#E4E4DE]">
+    <div name="about" className="w-full h-screen bg-[#ffffff]">
       <div className="max-w-[1250px] mx-auto px-8 flex justify-center gap-8 h-full">
       {/* Left Column */}
         <div className="flex justify-center items-center max-w-[500px]">
-          <img src={SELF} alt="Sam Villahermosa" className="w-98 shadow-md shadow-[#595f39]" />
+          <img src={SELF} alt="Sam Villahermosa" className="w-98 shadow-md shadow-[#073965]" />
             </div>
       {/* Right Column */}
         <div className="flex flex-col max-w-[750px] justify-center">
-            <h1 className="text-4xl font-bold inline border-b-4 border-[#B58D48] text-black">
+            <h1 className="text-4xl font-bold inline border-b-4 border-[#073965] text-black">
             About Me
             </h1>
-            <p className="text-black py-4">
+            <p className="text-xs sm:text-base text-black py-4">
             I'm a junior Computer Science student at Berea College, driven by a 
             passion for technology and the potential it holds to enhance lives. 
             I currently work at the Berea College IT department, 

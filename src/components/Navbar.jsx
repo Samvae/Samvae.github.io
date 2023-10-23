@@ -7,7 +7,7 @@ import {
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../assets/logo.png';
+import Logo from '../assets/logo1.png';
 import { Link } from 'react-scroll';
 import resume from '../assets/resume/resume.pdf';
 
@@ -16,11 +16,11 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#E4E4DE] text-black-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0F4C81] text-white'>
         {/* Logo */}
         <div className='hover:scale-110 duration-500'>
           <Link to="home" smooth={true} duration={400}>
-            <img src={Logo} alt="Logo Image" style={{ width: "175px" }} />
+            <img src={Logo} alt="Logo Image" style={{ width: "150px" }} />
           </Link>
         </div>
 
@@ -31,7 +31,7 @@ const Navbar = () => {
             to="about"
             smooth={true}
             duration={400}
-            className="hover:text-[#B58D48]"
+            className="hover:text-[#073965]"
           >
             About
           </Link>
@@ -41,7 +41,7 @@ const Navbar = () => {
             to="skills"
             smooth={true}
             duration={400}
-            className="hover:text-[#B58D48]"
+            className="hover:text-[#073965]"
           >
             Skills
           </Link>
@@ -51,7 +51,7 @@ const Navbar = () => {
             to="experiences"
             smooth={true}
             duration={400}
-            className="hover:text-[#B58D48]"
+            className="hover:text-[#073965]"
           >
             Experience
           </Link>
@@ -61,7 +61,7 @@ const Navbar = () => {
             to="projects"
             smooth={true}
             duration={400}
-            className="hover:text-[#B58D48]"
+            className="hover:text-[#073965]"
           >
           Projects
           </Link>
@@ -71,7 +71,7 @@ const Navbar = () => {
             to="contact"
             smooth={true}
             duration={400}
-            className="hover:text-[#B58D48]"
+            className="hover:text-[#073965]"
           >
             Contact
           </Link>
@@ -88,7 +88,7 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-[#E4E4DE] flex flex-col justify-center items-center'
+            : 'absolute top-0 left-0 w-full h-screen bg-[#ffffff] flex flex-col justify-center items-center'
         }
       >
         <li className='py-6 text-4xl'>

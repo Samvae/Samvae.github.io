@@ -7,11 +7,11 @@ import { Link } from 'react-scroll';
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen bg-[#E4E4DE]">
+    <div name="home" className="w-full h-screen bg-[#ffffff]">
       <div className="max-w-[1250px] mx-auto px-8 gap-6 flex justify-center h-full">
       {/* Left Column */}
         <div className="flex flex-col max-w-[750px] justify-center">
-          <p className="text-[#000000] font-bold">
+          <p className="text-xs sm:text-base text-[#000000] font-bold">
             <MovingComponent
               type="slideInFromRight"
               duration="1100ms"
@@ -24,7 +24,7 @@ const Home = () => {
               Hello and Welcome! 
             </MovingComponent>
           </p>
-          <h1 className="text-4xl sm:text-5xl font-bold text-[#000000]">
+          <h1 className="text-sm sm:text-4xl font-bold text-[#000000]">
             <MovingComponent
               type="slideInFromLeft"
               duration="1100ms"
@@ -37,7 +37,7 @@ const Home = () => {
               I am
             </MovingComponent>
           </h1>
-          <h2 className="text-4xl sm:text-7xl font-bold text-[#B58D48] h-30">
+          <h2 className="text-base sm:text-6xl font-bold text-[#073965] h-30">
             <MovingComponent
               type="jelly"
               duration="1100ms"
@@ -56,7 +56,7 @@ const Home = () => {
               />
             </MovingComponent>
           </h2>
-          <p className="text-[#000000] py-4">
+          <p className="text-xs sm:text-base text-[#000000] py-4">
             <MovingComponent
               type="slideInFromLeft"
               duration="1100ms"
@@ -75,7 +75,7 @@ const Home = () => {
           </p>
           <div>
             <Link to="about" smooth={true} duration={500}>
-              <button className="text-white group px-6 py-3 my-2 flex items-center bg-[#B58D48] shadow-md shadow-[#040c16] hover:scale-110">
+              <button className="text-xs sm:text-base text-white group px-6 py-3 my-2 flex items-center bg-[#073965] shadow-md shadow-[#040c16] hover:scale-110">
                 <MovingComponent
                   type="jelly"
                   duration="1100ms"
@@ -105,7 +105,7 @@ const Home = () => {
                   iteration="1"
                   fillMode="none"
                 >
-                  <img src={SELF} alt="Sam Villahermosa" className="w-98 rounded-full shadow-md shadow-[#595f39]" />
+                  <img src={SELF} alt="Sam Villahermosa" className="w-98 rounded-full shadow-md shadow-[#073965]" />
                 </MovingComponent>
           
       </div>

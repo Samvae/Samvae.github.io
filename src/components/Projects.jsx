@@ -9,10 +9,10 @@ import Snake from '../assets/projects/python.png';
 
 const Projects = () => {
   return (
-    <div name="projects" className="w-full md:h-screen text-white-300 bg-[#E4E4DE]">
+    <div name="projects" className="w-full md:h-screen text-white-300 bg-[#ffffff]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 text-white-300 border-[#B58D48]">
+          <p className="text-4xl font-bold inline border-b-4 text-white-300 border-[#073965]">
             Projects
           </p>
           <p className="py-6">// Check out some of my projects!</p>
