@@ -1,25 +1,25 @@
 import React from 'react';
 
-import HTML from '../assets/html.png';
-import CSS from '../assets/css.png';
-import JavaScript from '../assets/javascript.png';
-import ReactImg from '../assets/react.png';
-import FireBase from '../assets/firebase.png';
-import GitHub from '../assets/github.png';
-import Cplus from '../assets/C++.png';
-import Python from '../assets/python.png';
-import Git from '../assets/git.png';
-import Java from '../assets/java.png';
-import Nodejs from '../assets/nodejs.png';
-import Docker from '../assets/docker.png';
+import HTML from '../assets/skills/html.png';
+import CSS from '../assets/skills/css.png';
+import JavaScript from '../assets/skills/javascript.png';
+import ReactImg from '../assets/skills/react.png';
+import FireBase from '../assets/skills/firebase.png';
+import GitHub from '../assets/skills/github.png';
+import Cplus from '../assets/skills/C++.png';
+import Python from '../assets/skills/python.png';
+import Git from '../assets/skills/git.png';
+import Java from '../assets/skills/java.png';
+import Nodejs from '../assets/skills/nodejs.png';
+import Docker from '../assets/skills/docker.png';
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-screen bg-[#ffffff] text-black-300'>
+    <div name='skills' className='w-full sm:h-screen bg-[#ffffff] text-black-300'>
       {/* Container */}
       <div className='max-w-[1250px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div>
-              <p className='text-4xl font-bold inline border-b-4 border-[#073965] '>Skills</p>
+              <p className='text-4xl font-bold inline border-b-4 border-[#074276] '>Skills</p>
               <p className='py-4'>// These are the technologies I've worked with</p>
           </div>
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>

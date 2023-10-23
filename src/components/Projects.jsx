@@ -3,16 +3,16 @@ import Task from '../assets/projects/task.png';
 import Clock from '../assets/projects/clock.png';
 import Uzbek from '../assets/projects/uzbek.png';
 import Chess from '../assets/projects/chess.png';
-import Site from '../assets/projects/site.png';
 import Snake from '../assets/projects/python.png';
+import Logo from '../assets/self/logo3.png';
 
 
 const Projects = () => {
   return (
-    <div name="projects" className="w-full md:h-screen text-white-300 bg-[#ffffff]">
+    <div name="projects" className="w-full sm:h-screen text-white-300 bg-[#ffffff]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 text-white-300 border-[#073965]">
+          <p className="text-4xl font-bold inline border-b-4 text-white-300 border-[#074276]">
             Projects
           </p>
           <p className="py-6">// Check out some of my projects!</p>
@@ -105,7 +105,7 @@ const Projects = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${Site})` }}
+            style={{ backgroundImage: `url(${Logo})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
