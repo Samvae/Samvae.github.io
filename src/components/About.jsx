@@ -15,16 +15,17 @@ const About = () => {
             About Me
             </h1>
             <p className="text-xs sm:text-base text-black py-4">
-            I'm a junior Computer Science student at Berea College, driven by a 
-            passion for technology and the potential it holds to enhance lives. 
-            I currently work at the Berea College IT department, 
-            where I've gained valuable insights and experience in the field. Now, 
-            I'm enthusiastic about the opportunity to apply my skills and knowledge 
-            in real-world scenarios. As I approach Summer 2024, I'm actively searching 
-            for a Software Engineering internship, aligning my educational experience with 
-            practical application. I'm eager to delve deeper into this passion by building 
-            impactful projects and contributing to innovative employment opportunities, as 
-            I'm dedicated to making the transition from my current role to a full-fledged software developer.
+
+            I'm a junior Computer Science student at Berea College, 
+            and my ambition is to create applications that blend both 
+            fun and practicality.  My present role at the Berea College IT department 
+            has afforded me hands-on experience in both computer software and hardware, 
+            but I want to dive further into the world of code. 
+            Looking ahead to Summer 2024, I'm actively seeking a Software 
+            Engineering internship to take my skills to the next level. 
+            I'm enthusiastic about delving further into my passion by 
+            collaborating with others to develop meaningful projects that 
+            have a positive impact on the world.
             </p> 
         </div>
       </div>
