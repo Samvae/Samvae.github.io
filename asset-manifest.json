@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.4db3d5af.css",
-    "main.js": "/static/js/main.4688d7af.js",
+    "main.js": "/static/js/main.425e0369.js",
     "static/media/self2.png": "/static/media/self2.18f960c27d3f1b89647b.png",
     "static/media/self1.png": "/static/media/self1.7efd369759c846976d0e.png",
     "static/media/python.png": "/static/media/python.d8b377f05522bf35de36.png",
     "static/media/task.png": "/static/media/task.0d5e8c46a88e0ef024f9.png",
     "static/media/clock.png": "/static/media/clock.b54a5c921fefc3d5694c.png",
     "static/media/docker.png": "/static/media/docker.3ca096f4bb1894fc3580.png",
+    "static/media/resume.pdf": "/static/media/resume.34c495a1310748c7cd3c.pdf",
     "static/media/uzbek.png": "/static/media/uzbek.311a3e3025d11970113e.png",
     "static/media/chess.png": "/static/media/chess.6d111d92fdf2fc81446f.png",
-    "static/media/resume.pdf": "/static/media/resume.002c325f7ef3d9f4d7cd.pdf",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/nodejs.png": "/static/media/nodejs.952a9ea986dcfa5229ad.png",
     "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
@@ -22,10 +22,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.4db3d5af.css.map": "/static/css/main.4db3d5af.css.map",
-    "main.4688d7af.js.map": "/static/js/main.4688d7af.js.map"
+    "main.425e0369.js.map": "/static/js/main.425e0369.js.map"
   },
   "entrypoints": [
     "static/css/main.4db3d5af.css",
-    "static/js/main.4688d7af.js"
+    "static/js/main.425e0369.js"
   ]
 }
