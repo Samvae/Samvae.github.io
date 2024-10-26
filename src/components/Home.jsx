@@ -66,10 +66,11 @@ const Home = () => {
               iteration="1"
               fillMode="none"
             >
-              As a student and software developer, I'm fueled by boundless curiosity, dedicated to learning, 
-              innovating, and crafting projects that can reshape our world. My ultimate goal is to leverage 
-              technology as a catalyst for positive change, delivering solutions that enhance lives and leave a lasting mark. 
-              Welcome to my portfolio, where you'll discover my world of code and creativity.
+              I'm a student and software developer with a passion for continuous learning, creativity, and 
+              building projects that have the potential to make a significant impact on our world. 
+              My goal is to harness the power of technology as a force for positive change,  
+              whether through creating tools that enhance everyday life or building experiences that bring joy and entertainment. 
+              Thank you for visiting my portfolio!
               
             </MovingComponent>
           </p>
