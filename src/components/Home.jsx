@@ -49,7 +49,7 @@ const Home = () => {
             >
               <Typewriter
                 options={{
-                  strings: ["Sam Villahermosa", "a Software Developer", "a CS Student"],
+                  strings: ["Sam Villahermosa", "a Software Developer", "a Data Analyst"],
                   autoStart: true,
                   loop: true,
                 }}
@@ -66,11 +66,12 @@ const Home = () => {
               iteration="1"
               fillMode="none"
             >
-              I'm a student and software developer with a passion for continuous learning, creativity, and 
-              building projects that have the potential to make a significant impact on our world. 
-              My goal is to harness the power of technology as a force for positive change,  
-              whether through creating tools that enhance everyday life or building experiences that bring joy and entertainment. 
-              Thank you for visiting my portfolio!
+              I’m a software developer who loves learning new things, being creative, 
+              solving problems, and building projects that can make a real difference in the world. 
+              My goal is to use technology to create tools that improve everyday 
+              life and experiences that bring joy and entertainment.
+
+              Thanks for stopping by my portfolio!
               
             </MovingComponent>
           </p>

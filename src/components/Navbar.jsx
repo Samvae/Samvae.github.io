@@ -7,7 +7,7 @@ import {
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../assets/self/logo1.png';
+import Logo from '../assets/self/logo3.png';
 import { Link } from 'react-scroll';
 import resume from '../assets/resume/resume.pdf';
 

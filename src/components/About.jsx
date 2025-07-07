@@ -16,15 +16,16 @@ const About = () => {
             </h1>
             <p className="text-xs sm:text-base text-black py-4">
 
-            I'm a senior Computer Science student at Berea College, 
-            and my ambition is to create applications that mix both 
-            fun and practicality.  My present role at the Berea College IT department 
-            has afforded me hands-on experience in both computer software and hardware, 
-            but I want to dive further into the world of code. 
-            Looking ahead to Summer 2025, I'm actively seeking a Software 
-            Engineering role to take my skills to the next level. 
-            I'm enthusiastic about collaborating with others to develop meaningful projects that 
-            have a positive impact on the world.
+            I recently graduated with a degree in Computer Science from Berea College. 
+            During my time there, I developed a passion for building applications that 
+            are both enjoyable to use and practical in real life. Working in the Berea 
+            College IT department gave me valuable hands-on experience with software 
+            and hardware, but I’m eager to focus more deeply on coding and software development.
+
+            As I look toward Summer 2025, I’m actively searching for a Software Engineering 
+            role where I can grow my skills, learn from a team, and contribute to projects that 
+            make a real difference. I’m excited about collaborating with others who share my 
+            drive to create meaningful technology that improves people’s lives.
             </p> 
         </div>
       </div>
