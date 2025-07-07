@@ -71,7 +71,7 @@ const Home = () => {
               My goal is to use technology to create tools that improve everyday 
               life and experiences that bring joy and entertainment.
 
-              Thanks for stopping by my portfolio!
+              <br />Thanks for stopping by my portfolio!
               
             </MovingComponent>
           </p>

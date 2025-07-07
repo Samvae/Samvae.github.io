@@ -9,7 +9,7 @@ import GitHub from '../assets/skills/github.png';
 import Cplus from '../assets/skills/C++.png';
 import Python from '../assets/skills/python.png';
 import Git from '../assets/skills/git.png';
-import Java from '../assets/skills/java.png';
+import SQL from '../assets/skills/sql.png';
 import Nodejs from '../assets/skills/nodejs.png';
 import Docker from '../assets/skills/docker.png';
 
@@ -32,8 +32,8 @@ const Skills = () => {
                 <p className='my-4'>C++</p>
               </div>
               <div className='hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={Java} alt="Java icon" />
-                <p className='my-4'>JAVA</p>
+                <img className='w-20 mx-auto' src={SQL} alt="SQL icon" />
+                <p className='my-4'>SQL</p>
               </div>
               <div className='hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={GitHub} alt="Github icon" />

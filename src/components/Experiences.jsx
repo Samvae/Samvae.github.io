@@ -28,7 +28,6 @@ const Experiences = () => {
               • Coordinated Agile team sprints using Jira and improved process documentation via internal Wiki updates.
             </p>
           </div>
-          Coordinated Agile team sprints using Jira and improved process documentation via internal Wiki updates.
           {/*Undergraduate Research Assistant*/}
           <div className='hover:scale-110 duration-500'>
             <h1 className='text-lg font-bold text-[#074276 py-2 px-4'>
@@ -83,6 +82,8 @@ const Experiences = () => {
               • Communicated with 500+ visitors and donors of Berea College, ensuring positive experiences and satisfaction.<br />
               • Organized and executed 5+ successful events that increased student participation and engagement by 40%.<br />
               • Demonstrated empathy towards guests, resolving 95% of guest complaints within 24 hours.<br />
+              <br />
+              <br />
             </p>
           </div>
         </div>

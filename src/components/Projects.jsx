@@ -59,7 +59,7 @@ const Projects = () => {
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-black tracking-wider">
-                Alarm Clock
+                Arduino Alarm Clock
               </span>
               <div className="pt-8 text-center">
                 <a href="https://github.com/Samvae/Arduino-Alarm-Clock.git ">
