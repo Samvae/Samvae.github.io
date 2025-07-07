@@ -4,7 +4,7 @@ import Clock from '../assets/projects/clock.png';
 import Uzbek from '../assets/projects/uzbek.png';
 import Chess from '../assets/projects/chess.png';
 import Snake from '../assets/projects/python.png';
-import Logo from '../assets/self/logo3.png';
+import Logo from '../assets/self/logo1.png';
 
 
 const Projects = () => {
